@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     height: 100vh !important;
+   
+}
+.form{
+      background-color: #d3d3d3;
+      padding: 20px 90px !important;
+}
+
+
+
+#name {
+    margin: 10px 0 10px !important;
+    padding: 5px 20px !important;
+    /* border-radius: 10px; */
+    border: none;
+    width: 300px;
+    /* border-bottom: 0.5px solid gray; */
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px 30px !important;
+    /* border-radius: 10px; */
+    border: none;
+    margin-bottom: 5px !important;
+    /* border-bottom: 0.5px solid gray; */
+}
+
+.countrypicker {
+    width: 60px !important;
+    border: none !important;
+    /* margin: 10px 0 !important; */
+    background-color: #fff;
+ 
+}
+
+.border-bottom {
+    /* border-bottom: 0.5px solid gray; */
+    width: 300px;
+    background-color: #fff;
+    /* padding: -5px 0; */
+    height: 33px;
+   
+}
+.ok{
+    text-align: center;
+}
+.Pre-Register {
+    padding: 5px 40px;
+    color: white;
+    background-color: #862b66;
+    font-weight: 700;
+    margin: 20px 0 0;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    /* padding: 0.3vw 2vw; */
+    text-align: center;
+    /* margin-left: 35px; */
+    letter-spacing: 1px;
+ 
+}
+
+small {
+    color: red;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+select {
+ 
+}
+
+.success input {
+    color: rgb(0, 255, 47) !important;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 10px 0;
+    padding: 5px 30px;
+    border: 0.5px solid rgb(85, 255, 0) !important;
+    width: 300px;
+}
+
+.error small {
+    visibility: visible;
+}
+
+.error input {
+    color: red !important;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 10px 0;
+    padding: 5px 30px;
+    border: 0.5px solid red !important;
+    width: 190px;
+    border-bottom: 0.5px solid rgb(246, 0, 0);
+}
+
+.h2 {
+    letter-spacing: .02vw;
+    font-family: 'muli', 'Helvetica', 'Arial', sans-serif;
+    margin: 8px 0 0;
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: 600 !important;
+}
