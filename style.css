@@ -5,20 +5,24 @@
 }
 
 .formContainer {
-    /* margin-top: 100px; */
+    margin-top: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-     height: 100vh !important;
-   
+    height: 100vh !important;
+    /* justify-content: center; */
+
 }
-.form{
-      background-color: #d3d3d3;
-      /* padding: 20px 90px !important; */
-      text-align: center;
-      width: 100%;
-      height: 30vh;
+
+.form {
+    background-color: #d3d3d3;
+    /* padding: 20px 90px !important; */
+    /* text-align: center; */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
 }
 
 
@@ -47,7 +51,7 @@ input {
     border: none !important;
     /* margin: 10px 0 !important; */
     background-color: #fff;
- 
+
 }
 
 .border-bottom {
@@ -56,11 +60,13 @@ input {
     background-color: #fff;
     /* padding: -5px 0; */
     height: 33px;
-   
+
 }
-.ok{
+
+.ok {
     text-align: center;
 }
+
 .Pre-Register {
     padding: 5px 40px;
     color: white;
@@ -74,13 +80,14 @@ input {
     text-align: center;
     /* margin-left: 35px; */
     letter-spacing: 1px;
- 
+
 }
 
 small {
     color: red;
     margin-top: 20px;
     visibility: hidden;
+
 }
 
 
